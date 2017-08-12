@@ -1,0 +1,86 @@
+*
+{    
+    margin: 0px 0px 0px 0px;
+}
+
+p, h1, h2
+{
+    font-family: 'ProximaNova-Regular';
+    color: white;
+}
+
+.logo
+{
+    position: fixed;
+    font-family:'Fighting Spirit TBS';
+    font-size: 500%;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: default;
+    -webkit-text-stroke: 3px black;
+}
+
+body
+{
+    background: black url('TrumpFlag.jpg') no-repeat right 12vh;
+    background-size: 74vh;
+}
+
+#astro
+{
+    color: #5FFFFF;
+}
+
+#prison
+{
+    color: #5353FF;
+}
+
+iframe
+{
+    display: inline;
+}
+
+.navbar
+{
+    z-index: 1;
+    margin-bottom: 10px;
+    width: 110%;
+    position: fixed;
+    height: 120px;
+    background: linear-gradient(#2c74c4 70%, #0f3362);
+    box-shadow: -20px 10px 50px 0 #16457c;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.maincontent
+{
+    position: relative;
+    top: 200px;
+}
+
+@font-face 
+{
+    font-family: 'Fighting Spirit TBS';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fighting Spirit TBS'), url('fighting spirit TBS.woff') format('woff');
+}
+
+ul
+{
+    list-style-type: none;
+    width: 60px;
+}
+
+li a
+{
+    display: inline;
+}
