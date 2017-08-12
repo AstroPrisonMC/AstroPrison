@@ -23,7 +23,7 @@ p, h1, h2
 
 body
 {
-    background: black url('TrumpFlag.jpg') no-repeat right 12vh;
+    background: black url('https://github.com/AstroPrisonMC/AstroPrison/blob/master/TrumpFlag.jpg') no-repeat right 12vh;
     background-size: 74vh;
 }
 
@@ -71,7 +71,7 @@ iframe
     font-family: 'Fighting Spirit TBS';
     font-style: normal;
     font-weight: normal;
-    src: local('Fighting Spirit TBS'), url('fighting spirit TBS.woff') format('woff');
+    src: local('Fighting Spirit TBS'), url('https://github.com/AstroPrisonMC/AstroPrison/blob/master/fighting%20spirit%20TBS.woff') format('woff');
 }
 
 ul
